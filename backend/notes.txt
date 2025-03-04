@@ -1,0 +1,14 @@
+===========================================================
+======= How to start Node.js
+1) npm init
+2) Then we get package.json
+3) npm install express --save
+3) npm install express --save-dev  
+Above one if its for development
+4) then Node-module folder will be added
+5) install nodemon to dont manually restart server
+$ npm i nodeman --save-dev
+6) for running a server with our command insetad of "node filename"
+we can customize our run code,
+inside package.json, in scripts objects, add your personal one:
+"start": "node app.js"

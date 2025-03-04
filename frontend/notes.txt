@@ -1,0 +1,45 @@
+======= How to create & run react project with vite
+npm create vite
+npm install
+npm run dev 
+or 
+yarn dev
+==========================================================================
+npm install react-router-dom
+
+==========================================================================
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+==================================================================
+replaced colors:
+orginal replaced
+==================
+#85d417
+#2b8287
+
+#f8df00
+#fff
+
+#2a006e
+#2b8287
+
+
+#ff0055
+#2b8287
+
+
+#ff4382
+#83c7b8
+==================
+==================================================================
+
+How to deploy on 'netlify'
+1) create a file in root path with name 'nrtlify.toml' with below details:
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200
+
+2) npm run dev
+3) you can choose manually drop/drag 'dist' folder in the netlify site
+==================================================================
